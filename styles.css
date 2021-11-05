@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dosis:wght@300;400&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+ }
+
+/*Still change the font to be more spooky*/
+body {
+     font-family: 'Dosis', sans-serif;
+    /* background-color: #72618c; */
+    background-image: url('https://github.com/samhatesham5/introtoJS/blob/main/pastelPurple.jpg?raw=true');
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: #201438;
+}
+
+.logo {
+  font-family: 'Abril Fatface', cursive;
+  padding-left: 2vmin;
+  color: #201438;
+}
+
+.wholeSite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f1e7fb;
+  margin: 15vmin;
+  padding: 5vmin;
+}
+
+.headerSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 4vmin;
+}
+
+.headerSection > h1 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.headerSection > h2 {
+  font-size: 4vmin;
+}
+
+.inputSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.inputSection > p {
+  padding-right: 1vmin;
+}
+
+#inputBox {
+  height: 5vh;
+  padding: 2px;
+}
+
+#runButton {
+  font-family: 'Dosis', sans-serif;
+  height: 5vh;
+  padding: 4px;
+  background-color: #3a3d67;
+  border-width: thin;
+  text-decoration: none;
+  transition: 0.3s;
+  color: white;
+}
+
+#runButton:hover {
+  background-color: #a7cee8;
+  color: #201438;
+}
+
+.outputSection {
+  text-align: center;
+  margin: 5vmin;
+  padding: 2vmin;
+  background-color: white;
+  border-radius: 10px;
+  width: 50vmin;
+}
