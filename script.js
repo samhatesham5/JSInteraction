@@ -45,8 +45,8 @@ exeButton.addEventListener("click", function (){
 Q2: Write a function called 'restyle' that applies new CSS styles to the 'fortune' texts in a random manner each time it fires. Modify at least 3 CSS properties.
 
 -We create a new button event listener so that everytime it fires, something happens to the class CSS
--We have to randomize an array of colors maybe (One CSS thing)
--We can
+-We have to randomize an array of colors (One CSS thing)
+
 
 
 
