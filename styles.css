@@ -17,13 +17,14 @@ body {
     width: 100%;
     height: 100vh;
     color: #201438;
+    background-color: #f1e7fb;
 }
 
 .logo {
   font-family: 'Abril Fatface', cursive;
   padding-left: 2vmin;
   color: #201438;
-  font-size: 6vmin; 
+  font-size: 6vmin;
 }
 
 .wholeSite {
@@ -65,13 +66,14 @@ body {
 }
 
 #inputBox {
-  height: 5vh;
-  padding: 2px;
+  height: 5px;
+  width: 150px;
+  padding: 12px;
 }
 
 #runButton {
   font-family: 'Dosis', sans-serif;
-  height: 5vh;
+  height: 28px;
   padding: 4px;
   background-color: #3a3d67;
   border-width: thin;
