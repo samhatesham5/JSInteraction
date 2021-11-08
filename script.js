@@ -46,9 +46,29 @@ Q2: Write a function called 'restyle' that applies new CSS styles to the 'fortun
 
 -We create a new button event listener so that everytime it fires, something happens to the class CSS
 -We have to randomize an array of colors (One CSS thing)
-
-
-
-
+-Maybe text decoration? Text shadow? Font size?
 
 */
+
+exeButton.addEventListener ("click", restyle);
+
+function restyle () {
+  //Changing fortune color//
+  var colorArray = ['#6d7db9', '#5a6aae', '#232437', '#3a3d67', '#ffafd4', '#a7cee8','#c5bfdf', '#7aa79d'];
+  var randomColor = colorArray[Math.floor (Math.random () * colorArray.length)];
+
+  outputText.style.color = randomColor;
+
+  //Changing text shadow//
+
+  var shadowArray = [' 0px 0px 10px blue',  ' 0px 0px 10px green', '0px 0px 10px purple'];
+  var randomShadow = shadowArray [Math.floor (Math.random () * shadowArray.length)];
+  outputText.style.textShadow = randomShadow;
+
+//Changing text decoration//
+var decorArray = ['underline', 'none', 'line-through'];
+var randomDecor = decorArray [Math.floor (Math.random () * decorArray.length)];
+outputText.style.textDecoration = randomDecor;
+
+
+};
