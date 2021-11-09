@@ -54,7 +54,7 @@ exeButton.addEventListener ("click", restyle);
 
 function restyle () {
   //Changing fortune color//
-  var colorArray = ['#6d7db9', '#5a6aae', '#232437', '#3a3d67', '#a7cee8','#c5bfdf', '#7aa79d'];
+  var colorArray = ['#6d7db9', '#5a6aae', '#232437', '#3a3d67', '#a7cee8','#c5bfdf'];
   var randomColor = colorArray[Math.floor (Math.random () * colorArray.length)];
 
   outputText.style.color = randomColor;
